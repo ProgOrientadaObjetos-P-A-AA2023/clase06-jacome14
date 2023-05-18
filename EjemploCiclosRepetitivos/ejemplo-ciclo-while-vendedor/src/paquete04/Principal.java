@@ -1,17 +1,13 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package paquete02;
 
+package paquete04;
 import java.util.Scanner;
+import  paquete02.Vendedor;
 
-public class Ejecutor {
-
-    public static void main(String[] args) {
-        // variables para ingreso de datos
-        String nombre;
+public class Principal {
+   public static void main(String[] args) {
+        int contador = 1 ;
+        
+       String nombre;
         int edad;
         double sMinino;
         int autos;
@@ -23,7 +19,9 @@ public class Ejecutor {
         bandera = true;
         cadenaFinal = ""; // inicializo la variable que contendrá la cadena
         // final.
-        while (bandera) { // bandera == true
+        while (contador<=3 ) { // bandera == true
+            System.out.println(contador);
+            contador= contador +1 ;
             System.out.println("Ingrese el nombre del vendedor");
             nombre = entrada.nextLine();
             System.out.println("Ingrese edad del vendedor");
@@ -60,5 +58,7 @@ public class Ejecutor {
         // cuando se sale del ciclo repetitivo debemos presentar en pantalla
         // el valor de cadena final
         System.out.printf("%s\n", cadenaFinal);
-    }
+       
+       
+   }
 }
