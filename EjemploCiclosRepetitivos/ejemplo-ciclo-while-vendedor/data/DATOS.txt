@@ -1,0 +1,7 @@
+Datos de Vendedor
+Nombre: alex
+Edad: 22
+Salario mínimo: 334,00
+Número de autos: 44
+Pago mensual: 6934,00
+

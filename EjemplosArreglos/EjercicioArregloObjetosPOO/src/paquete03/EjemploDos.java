@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package paquete03;
 
 import paquete01.Calificacion;
@@ -15,8 +11,7 @@ public class EjemploDos {
         
         Calificacion [] calificaciones = {c, c2};
         
-        for (int i = 0; i < calificaciones.length; i++) {
-            Calificacion objetoCalificacion = calificaciones[i];
+        for (Calificacion objetoCalificacion : calificaciones) {
             System.out.printf("%s - %.2f\n", 
                     objetoCalificacion.obtenerNombreMateria(),
                     objetoCalificacion.obtenerNota());

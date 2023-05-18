@@ -1,4 +1,4 @@
-/*
+  /*
  * características: nombre del hospital, ciudad del hospital, 
  *   número de camas, número de doctores, presupuesto anual.
  */

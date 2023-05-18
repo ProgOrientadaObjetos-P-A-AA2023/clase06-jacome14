@@ -15,9 +15,14 @@ public class Calificacion {
     private String nombreMateria;
     private Profesor profesor;
 
-    public Calificacion(double n, String nombre) {
+    public Calificacion(double n, String nombre, Profesor p) {
         nota = n;
         nombreMateria = nombre;
+        profesor = p;
+    }
+
+    public Calificacion(int i, String computación) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
     public void establecerNota(double n) {

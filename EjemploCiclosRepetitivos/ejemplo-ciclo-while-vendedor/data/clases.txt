@@ -1,0 +1,14 @@
+Datos de Vendedor
+Nombre: rgfd
+Edad: 123
+Salario mínimo: 154054,00
+Número de autos: 132
+Pago mensual: 173854,00
+
+Datos de Vendedor
+Nombre: 4456545444
+Edad: 42
+Salario mínimo: 144553,00
+Número de autos: 564
+Pago mensual: 229153,00
+
